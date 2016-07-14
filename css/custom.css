@@ -35,25 +35,26 @@
 }
 	
 #mycon{
-	width:90%;
-	margin-top:5%;
+	width:100%;
+	margin-top:5.5%;
 	}
 #myCarousel{
-	border: 2px solid black;
+
 	
 	
 	}
 
 hr{
-	width:90%;
+	width:100%;
 	border: 2px solid black;
-	margin-left:5%;
+	
 }
 .jumbotron{
 	background-color:#ffc266;
 	text-align:center;
 	}
 #about_us{
+	width:100%;
 	height:auto;
 	text-align:center;
 	position:relative;
@@ -75,6 +76,71 @@ hr{
 	
 	 } 	
 #footer{
-	margin-top:5%;
-    height:70px;
+	margin-top:2%;
+	background-color:black;
+	
+}
+#copyright > h6{
+	font-size:130%;
+	margin-left:12%;
+	}
+.navbar{
+	height:10%;
+}
+
+.container-fluid{
+	height:100%;
+	background-color:white;
+
+	}
+
+
+#links{
+	margin-top:1%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:130%;
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+#footer-con{
+	background-color:black;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.figure-caption{
+	font-size:130%;
+	font-style:italic;
+	font-weight:bolder;
+	color:red;
+}
+#links li:hover { background-color:#2EA620; }
+.services{
+	height:50%;
+	width:80%;
+	border:2px solid black;
+}
+#home-content{
+	border:2px solid black;
+	height:200px;
+	margin-top:2%;
 }
