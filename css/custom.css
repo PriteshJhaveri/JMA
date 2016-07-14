@@ -1,0 +1,80 @@
+
+#r1{
+	margin-top:5%;
+}
+ 
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+.carousel-inner > .item > img{
+	width:100%;
+	height:550px;
+	
+	
+}
+	
+#mycon{
+	width:90%;
+	margin-top:5%;
+	}
+#myCarousel{
+	border: 2px solid black;
+	
+	
+	}
+
+hr{
+	width:90%;
+	border: 2px solid black;
+	margin-left:5%;
+}
+.jumbotron{
+	background-color:#ffc266;
+	text-align:center;
+	}
+#about_us{
+	height:auto;
+	text-align:center;
+	position:relative;
+	z-index:1;
+	
+	}	
+ #about_us  h1{
+	 z-index:2;
+	 position:relative;
+ }
+ .abs{
+	 position:absolute;
+	 left:0;
+	 right:0;
+	 width:100%;
+	 height:100%;
+	  opacity:0.6;
+	border:1px solid black;
+	
+	 } 	
+#footer{
+	margin-top:5%;
+    height:70px;
+}
